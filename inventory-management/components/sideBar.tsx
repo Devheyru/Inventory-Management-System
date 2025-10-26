@@ -34,7 +34,7 @@ export default function SideBar({
       <div className="mb-8">
         <div className="flex items-center space-x-2 mb-4">
           <BarChart3 className="w-7 h-10" />
-          <span className="text-lg font-semibold">Inventory App</span>
+          <span className="text-lg font-semibold">Analytics</span>
         </div>
       </div>
       <nav className="space-y-1">

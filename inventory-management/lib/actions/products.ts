@@ -40,6 +40,7 @@ export async function addProduct(formData: FormData) {
 
     redirect("/inventory");
   } catch (error) {
-    throw new Error("Failed to add product");
+    console.error("Error adding product:", error);
+    throw error;
   }
 }
