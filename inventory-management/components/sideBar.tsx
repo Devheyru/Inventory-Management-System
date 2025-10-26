@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function SideBar({
   currentPath = "/dashboard",
 }: {
-  currentPath: String;
+  currentPath: string;
 }) {
   const Navigation = [
     {
